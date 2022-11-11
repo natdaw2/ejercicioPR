@@ -1,4 +1,5 @@
 <?php
+//A
 $conexion=new mysqli("localhost","root","","tpv");
 if(isset($_POST["pedido"])){
     $pedido=unserialize($_POST["pedido"]);
